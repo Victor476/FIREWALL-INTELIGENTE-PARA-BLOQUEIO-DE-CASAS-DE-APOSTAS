@@ -1,3 +1,39 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editors
+.vscode/
+.idea/
+
+# Models and large artifacts
+*.pkl
+*.joblib
+*.h5
+*.pt
+models/
+
+# Notebook checkpoints
+.ipynb_checkpoints
+
+# Docker / env
+.env
+docker-compose.override.yml
+
+# Volumes - ignore runtime DB/log files but keep .gitkeep
+volumes/db/*
+!volumes/db/.gitkeep
+volumes/logs/*
+!volumes/logs/.gitkeep
+
+# OS
+.DS_Store
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

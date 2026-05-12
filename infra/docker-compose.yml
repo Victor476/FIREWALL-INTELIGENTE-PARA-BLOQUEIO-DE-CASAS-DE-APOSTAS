@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  placeholder:
+    image: alpine
+    command: ["sh", "-c", "sleep 3600"]
+volumes:
+  db:
+  logs:
