@@ -22,7 +22,7 @@ RUN if [ -f /usr/sbin/tcpdump ]; then setcap 'cap_net_raw,cap_net_admin+eip' /us
 WORKDIR /app
 
 # Copiar requirements e instalar (arquivo mínimo por enquanto)
-COPY infra/requirements.txt /app/requirements.txt
+COPY requirements.txt /app/requirements.txt
 RUN pip install --upgrade pip && pip install --no-cache-dir -r /app/requirements.txt
 
 # Copiar o projeto (pode ser ajustado mais tarde)
