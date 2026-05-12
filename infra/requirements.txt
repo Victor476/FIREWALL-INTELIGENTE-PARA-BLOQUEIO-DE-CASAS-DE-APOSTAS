@@ -1,0 +1,6 @@
+# Requisitos iniciais - ajustar conforme necessidade
+scapy
+# pandas
+# scikit-learn
+# xgboost
+# joblib
