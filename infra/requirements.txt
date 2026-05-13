@@ -1,6 +1,18 @@
-# Requisitos iniciais - ajustar conforme necessidade
-scapy
-# pandas
-# scikit-learn
-# xgboost
-# joblib
+# Infraestrutura e Redes
+scapy>=2.5.0
+
+# Manipulação de Dados e ML
+pandas>=2.0.0
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+joblib>=1.3.0
+
+# Coleta de Dados (Web Scraping)
+playwright>=1.40.0
+selenium>=4.15.0
+# Banco de Dados
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# Admin e CLI
+click>=8.1.0
