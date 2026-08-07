@@ -235,15 +235,6 @@ print(f"Ação: {rule.action.value}")  # 'deny' ou 'allow'
 
 ---
 
-## Próximas Etapas
-
-1. **Issue #42-44:** Implementar CRUD (Create, Read, Update, Delete) para `filtering_rules`.
-2. **Issue #44:** CLI de administração para gerenciar regras.
-3. **Issue #45:** "Hot Reload" — recarregar regras sem parar o firewall.
-4. **Docker Compose:** Adicionar serviço PostgreSQL com volumes persistentes.
-
----
-
 ## Referências
 
 - **RFC 5735**: IPv4 Special-Use Address Blocks
