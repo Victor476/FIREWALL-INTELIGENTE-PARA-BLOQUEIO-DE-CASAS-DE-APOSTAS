@@ -1,8 +1,9 @@
 # Infraestrutura e Redes
 scapy>=2.5.0
 
-# Coleta e Automação de Browser (Issue #08)
+# Coleta e Automação de Browser (Issue #08 e #09)
 selenium>=4.15.0
+selenium-stealth>=1.0.6
 
 # Manipulação de Dados e ML (CPU)
 pandas>=2.0.0
