@@ -17,6 +17,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     libpcap-dev \
     ca-certificates \
+    chromium \
+    chromium-driver \
+    fonts-liberation \
+    fonts-noto \
     && rm -rf /var/lib/apt/lists/*
 
 # Permitir captura com tcpdump sem exigir root (se suportado no host)

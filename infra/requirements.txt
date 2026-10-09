@@ -1,6 +1,9 @@
 # Infraestrutura e Redes
 scapy>=2.5.0
 
+# Coleta e Automação de Browser (Issue #08)
+selenium>=4.15.0
+
 # Manipulação de Dados e ML (CPU)
 pandas>=2.0.0
 scikit-learn>=1.3.0

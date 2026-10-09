@@ -32,8 +32,11 @@ volumes/db/*
 volumes/logs/*
 !volumes/logs/.gitkeep
 
-# OS
+# OS & Office / Drive
 .DS_Store
+*.gdoc
+*.gsheet
+*.gslides
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

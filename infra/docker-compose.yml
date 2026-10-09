@@ -7,6 +7,9 @@ networks:
 
 services:
   gateway:
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile
     image: firewall-base:latest
     container_name: gateway_firewall
     hostname: gateway-firewall
@@ -36,11 +39,15 @@ services:
     command: ["bash"]
 
   app_client:
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile
     image: firewall-base:latest
     container_name: app_client
     hostname: app-client
     cap_add:
       - NET_ADMIN
+    shm_size: 1g
     networks:
       firewall_net:
         ipv4_address: 172.20.0.10
