@@ -193,3 +193,16 @@ def create_stealth_driver(
     )
 
     return driver, ua
+
+
+def get_stealth_driver(
+    user_agent: Optional[str] = None,
+    window_size: Optional[Tuple[int, int]] = None,
+    headless: bool = True
+) -> webdriver.Chrome:
+    """
+    Função utilitária de conveniência que retorna diretamente a instância do WebDriver stealth.
+    """
+    driver, _ = create_stealth_driver(user_agent=user_agent, window_size=window_size, headless=headless)
+    return driver
+
