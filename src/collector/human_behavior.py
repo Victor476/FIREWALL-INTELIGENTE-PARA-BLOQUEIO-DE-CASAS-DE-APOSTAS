@@ -183,7 +183,7 @@ if __name__ == "__main__":
                 target_url = sys.argv[2]
         else:
             target_url = sys.argv[1]
-            if len(sys.argv) > 2 and sys.argv[2].isdigit():
+            if len(sys.argv) >= 2 and sys.argv[2].isdigit():
                 target_duration = int(sys.argv[2])
 
     print("=========================================================")
