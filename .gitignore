@@ -32,6 +32,16 @@ volumes/db/*
 volumes/logs/*
 !volumes/logs/.gitkeep
 
+# Data directories - ignore generated datasets and reports but keep .gitkeep
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/reports/*
+!data/reports/.gitkeep
+data/corrupted/*
+!data/corrupted/.gitkeep
+
 # OS & Office / Drive
 .DS_Store
 *.gdoc
